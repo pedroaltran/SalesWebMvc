@@ -1,11 +1,17 @@
 ﻿using System;
+<<<<<<< HEAD
 using System.Collections.Generic;
 using System.Diagnostics;
+=======
+>>>>>>> 779b3ce9d6109d8ca99ec419388397b61fb13beb
 using Microsoft.AspNetCore.Mvc;
 using SalesWebMvc.Models;
 using SalesWebMvc.Models.ViewModels;
 using SalesWebMvc.Services;
+<<<<<<< HEAD
 using SalesWebMvc.Services.Exceptions;
+=======
+>>>>>>> 779b3ce9d6109d8ca99ec419388397b61fb13beb
 
 namespace SalesWebMvc.Controllers
 {
@@ -45,15 +51,25 @@ namespace SalesWebMvc.Controllers
         {
             if (id == null)
             {
+<<<<<<< HEAD
                 return RedirectToAction(nameof(Error), new { message ="Id not provided"});
+=======
+                return NotFound();
+>>>>>>> 779b3ce9d6109d8ca99ec419388397b61fb13beb
             }
 
             var obj = _sellerService.FindById(id.Value);
             if (obj == null)
             {
+<<<<<<< HEAD
                 return RedirectToAction(nameof(Error), new { message = "Id not found" }); ;
             }
 
+=======
+                return NotFound();
+            }
+            
+>>>>>>> 779b3ce9d6109d8ca99ec419388397b61fb13beb
             return View(obj);
         }
         [HttpPost]
@@ -63,6 +79,7 @@ namespace SalesWebMvc.Controllers
             _sellerService.Remove(id);
             return RedirectToAction(nameof(Index));
         }
+<<<<<<< HEAD
 
         public IActionResult Details(int? id)
         {
@@ -128,5 +145,7 @@ namespace SalesWebMvc.Controllers
             };
             return View(viewModel);
         }
+=======
+>>>>>>> 779b3ce9d6109d8ca99ec419388397b61fb13beb
     }
 }
