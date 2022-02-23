@@ -2,11 +2,8 @@
 using SalesWebMvc.Models;
 using System.Collections.Generic;
 using System.Linq;
-<<<<<<< HEAD
 using Microsoft.EntityFrameworkCore;
 using SalesWebMvc.Services.Exceptions;
-=======
->>>>>>> 779b3ce9d6109d8ca99ec419388397b61fb13beb
 
 namespace SalesWebMvc.Services
 {
@@ -32,11 +29,7 @@ namespace SalesWebMvc.Services
 
         public Seller FindById(int id)
         {
-<<<<<<< HEAD
             return _context.Seller.Include(obj => obj.Department).FirstOrDefault(obj => obj.Id == id);
-=======
-            return _context.Seller.FirstOrDefault(obj => obj.Id == id);
->>>>>>> 779b3ce9d6109d8ca99ec419388397b61fb13beb
         }
 
         public void Remove(int id)
@@ -45,7 +38,6 @@ namespace SalesWebMvc.Services
             _context.Seller.Remove(obj);
             _context.SaveChanges();
         }
-<<<<<<< HEAD
 
         public void Update(Seller obj)
         {
@@ -66,7 +58,3 @@ namespace SalesWebMvc.Services
     }
 }
 
-=======
-    }
-}
->>>>>>> 779b3ce9d6109d8ca99ec419388397b61fb13beb

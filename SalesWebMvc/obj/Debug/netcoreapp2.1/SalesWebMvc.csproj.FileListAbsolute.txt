@@ -90,3 +90,8 @@ C:\vs\SalesWebMvcc\SalesWebMvc\SalesWebMvc\obj\Debug\netcoreapp2.1\Razor\Views\S
 C:\vs\SalesWebMvcc\SalesWebMvc\SalesWebMvc\obj\Debug\netcoreapp2.1\Razor\Views\Sellers\Edit.cshtml.g.cs
 =======
 >>>>>>> 779b3ce9d6109d8ca99ec419388397b61fb13beb
+C:\vs\SalesWebMvc\SalesWebMvc\obj\Debug\netcoreapp2.1\Razor\Views\Sellers\Create.cshtml.g.cs
+C:\vs\SalesWebMvc\SalesWebMvc\obj\Debug\netcoreapp2.1\Razor\Views\Sellers\Delete.cshtml.g.cs
+C:\vs\SalesWebMvc\SalesWebMvc\obj\Debug\netcoreapp2.1\Razor\Views\Sellers\Details.cshtml.g.cs
+C:\vs\SalesWebMvc\SalesWebMvc\obj\Debug\netcoreapp2.1\Razor\Views\Sellers\Edit.cshtml.g.cs
+C:\vs\SalesWebMvc\SalesWebMvc\obj\Debug\netcoreapp2.1\Razor\Views\Sellers\Index.cshtml.g.cs
